@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: #682bd7;
+}
+
+#just-a-box {
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    background-image: linear-gradient(90deg, rgb(75, 0, 112) 0%, rgb(0, 0, 176) 50%, rgb(0, 174, 220) 100%);
+}
+
+#span1 {
+    color: blue;
+}
+
+#square {
+    list-style: square;
+}
+
+#borderAndImage {
+    border: 2px solid orange;
+    list-style-image: url("image.png");
+}
+table, th, td {
+    border: 2px solid green;
+}
+table {
+    border-collapse: collapse;
+}
