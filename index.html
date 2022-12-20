@@ -1,18 +1,107 @@
-<!doctype html>
-<html>
-  <head>
-     <title>Floating Assignment - YOUR TITLE HERE</title>
-  </head>
-  <body>
-    <h1>Floating Assignment - Cheat Sheet<h1>
-      <p>This is a (very ugly) placeholder page for your WMC cheat sheet.
-        You can use it in any way suitable to fulfil your task.</p>
-      <ul>
-        This includes:
-        <li>Modify this file as needed</li>
-        <li>Replace the content of this file with your cheat sheet</li>
-        <li>Use it as overview page that links to separate pages for each topic</li>
-        <li>Add a menu bar</li>
-      </ul>
-  </body>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>WMC Cheatsheet</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+    <div id="just-a-box">
+        <h1>HTML Cheatsheet</h1>
+    </div>
+    <section id="s1">
+        <h2>Html and Css</h2>
+        <p>General components are the opening and closing tag and in between is the clement content.<br>
+            There are also void elements. They don't have an end tag or any content and are also called empty elements. For example: &lt;br&gt;<br>
+            Attributes provide additional information about elements. Elements can be styled using a css file.<br>
+            A css rule is divided into 3 parts:<br>
+            - Selector: Can be an HTML element, an id or a class<br>
+            - Property: the name of the property you want to style such as `background-color` or `padding`<br>
+            - Value: value that will be assigned to attribute<br><br>
+            A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.<br>
+            There are four different combinators in CSS:<br>
+            descendant selector (space) - selects all elements inside that element<br>
+            child selector (>) - selects all elements that are children of that element<br>
+            adjacent sibling selector (+) - selects the first element inside that element<br>
+            general sibling selector (~) - selects all elements that are next siblings of these elements<br><br>
+
+            With css you can customize almost <span id="span1">everything</span>. You can apply different effects to elements and make your webpage look nicer.
+        </p>
+    </section>
+    <section id="s2">
+        <h2>Lists and Tables</h2>
+        <p>There are ordered (&lt;ol&gt;), unordered (&lt;ul&gt;) and description (&lt;dl&gt;) lists.<br>
+            Adding an item is simple: &lt;li&gt; for ordered and unordered lists and &lt;dd&gt; for description lists. A description list entry can also have a description as the name says (term): &lt;dt&gt;
+        </p>
+        <ol>
+            <li>Entry 1</li>
+        </ol>
+        <ul>
+            <li>Entry 2</li>
+        </ul>
+        <dl>
+            <dd>Entry 3</dd>
+            <dt>Description of Entry 3</dt>
+            <dd>Entry 4</dd>
+            <dt>Description of Entry 4</dt>
+        </dl>
+        <p>Cool, isn't it? Let's style it a bit.</p>
+        <ul id="square">
+            <li>Change it to a square</li>
+        </ul>
+        <p>Looks good</p>
+        <ol id="borderAndImage">
+            <li>Maybe add a border</li>
+            <li>And an image for the bullet points</li>
+        </ol>
+        <p>Sweet!</p>
+        <p>Now let's have a look at tables. Creating a table is easy, just use &lt;table&gt;.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tags</th>
+                    <th>What they do</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;th&gt;</td>
+                    <td>Create a table cell headers like the one above this row</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Create a row</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Create a data cell</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>&lt;thead&gt; &lt;tbody&gt; &lt;tfoot&gt;</td>
+                    <td>Groups the table just like the default &lt;head&gt; and &lt;body&gt; elements in html</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>Looks good right? You can also style tables but yeah I didn't do much here as you can see.</p>
+        <p>Just collapsed the border and changed its color to green.</p>
+    </section>
+    <section>
+        <h2>Advanced CSS</h2>
+        <p>
+            padding: Space between element and its borders
+		margin: Space outside of a border
+        </p>
+    </section>
+    <section>
+        <h2>Graphic formats</h2>
+        <p>jp(e)g: kann bis zu 16,7 Mio. Farben darstellen und eignet sich daher gut für detaillierte Fotos; kann gut komprimiert werden</p>
+        <p>gif: nur bis 256 Farben möglich und Animation möglich; verlustfreie Kompression</p>
+        <p>png: Transparent und Verlustfrei (wie bei jpg 16,7 Mio. farben)</p>
+        <p>ico: können mehrere Einzelbilder enthalten, die das System je nach benötigter Auflösung und Farbtiefe benutzt</p>
+        <p>svg: Scalable Vector Graphic; Unterstützt Interaktivität und Animationen</p>
+        <p>mpg / mp4: Die Bildrate ist eingestellt auf 25 fps.</p>
+    </section>
+    </body>
 </html>
