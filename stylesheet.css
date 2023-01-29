@@ -32,3 +32,56 @@ table, th, td {
 table {
     border-collapse: collapse;
 }
+#grad {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, rgb(7, 10, 219), rgb(0, 255, 234));
+}
+#shadows {
+    color: rgb(89, 0, 255);
+    text-shadow: 0px 0px 5px red;
+}
+
+.t1 {
+    transform: rotate(20deg);
+}
+.t2{
+    transform: rotateX(150deg);
+}
+.trans {
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    background-color: #b5fff9;
+}
+.trans h4{
+    margin: auto;
+}
+.transi {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+.transi:hover {
+    width: 300px;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+.anim {
+    color: white;
+    text-align: center;
+    font-weight: 500px;
+    font-size: 20px;
+    width: 500px;
+    height: 100px;
+    background-color: red;
+  }
+
+.anim:hover{
+    animation-name: example;
+    animation-duration: 4s;
+}
